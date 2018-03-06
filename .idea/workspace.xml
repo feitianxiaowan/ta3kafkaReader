@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c65799ae-a95b-4757-b4aa-0858d7d17f50" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/ta3-deserializer/EventRecord.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ta3-deserializer/KafkaReader$ForceOffsetConsumerRebalanceListener.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ta3-deserializer/KafkaReader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ta3-deserializer/Main$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ta3-deserializer/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ta3-deserializer/ReverseConversion.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/EventRecord.java" afterPath="$PROJECT_DIR$/src/EventRecord.java" />
-      <change beforePath="$PROJECT_DIR$/src/KafkaReader.java" afterPath="$PROJECT_DIR$/src/KafkaReader.java" />
+      <change beforePath="$PROJECT_DIR$/list.txt" afterPath="$PROJECT_DIR$/list.txt" />
       <change beforePath="$PROJECT_DIR$/src/ReverseConversion.java" afterPath="$PROJECT_DIR$/src/ReverseConversion.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KafkaReader.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KafkaReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KafkaReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="85" column="62" lean-forward="true" selection-start-line="85" selection-start-column="62" selection-end-line="85" selection-end-column="62" />
+            <state relative-caret-position="204">
+              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#KafkaReader#0;class#KafkaReader#0" expanded="false" />
@@ -51,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseConversion.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReverseConversion.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ReverseConversion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+            <state relative-caret-position="30">
+              <caret line="69" column="118" lean-forward="true" selection-start-line="69" selection-start-column="118" selection-end-line="69" selection-end-column="118" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -494,20 +486,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReverseConversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/KafkaReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="85" column="62" lean-forward="true" selection-start-line="85" selection-start-column="62" selection-end-line="85" selection-end-column="62" />
+        <state relative-caret-position="204">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#KafkaReader#0;class#KafkaReader#0" expanded="false" />
@@ -516,6 +498,16 @@
             <element signature="method#logRecord#0;class#KafkaReader#0" expanded="false" />
             <element signature="method#closeConsumer#0;class#KafkaReader#0" expanded="false" />
             <element signature="class#ForceOffsetConsumerRebalanceListener#0;class#KafkaReader#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReverseConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="69" column="118" lean-forward="true" selection-start-line="69" selection-start-column="118" selection-end-line="69" selection-end-column="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

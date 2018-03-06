@@ -63,6 +63,13 @@ public class ReverseConversion {
             case EVENT_EXIT: parseEventExit(record); break;  // ProcessEnd
 
             case EVENT_LOADLIBRARY: parseEventLoadLibrary(record); break; // ImageLoad
+            case EVENT_CLOSE: parseEventClose(record); break; // ImageUnLoad
+
+            case EVENT_SENDMSG: parseEventSendMsg(record); break; // ALPCALPC-Send-Message
+            case EVENT_RECVMSG: parseEventRecvMsg(record); break; // ALPCALPC-Receive-Message
+            case EVENT_OTHER: parseEventOther(record); break; // ALPCALPC-Unwait, ALPCALPC-Wait-For-Reply, System call
+
+            case EVENT_READ: parseEventWrite(record); break; // DiskIoWrite
             default: tempRecord.eventName = "";
         }
     }
@@ -77,10 +84,43 @@ public class ReverseConversion {
         tempRecord.parameter = "ImageFileName:" + record.getPredicateObjectPath() + ", CommandLine:" + process2CmdLine.get(record.getPredicateObject());
     }
 
-    private  static void  parseEventLoadLibrary(Event record){
+    private static void parseEventLoadLibrary(Event record){
         tempRecord.eventName = "ImageLoad";
         tempRecord.parameter = record.getPredicateObjectPath().toString();
     }
+
+    private static void parseEventClose(Event record){
+        tempRecord.eventName = "ImageUnLoad";
+        tempRecord.parameter = record.getPredicateObjectPath().toString();
+    }
+
+    private static void parseEventSendMsg(Event record){
+        tempRecord.eventName = "ALPCALPC-Send-Message";
+        tempRecord.parameter = process2CmdLine.get(record.getPredicateObject());
+    }
+
+    private static void parseEventRecvMsg(Event record){
+        tempRecord.eventName = "ALPCALPC-Receive-Message";
+        tempRecord.parameter = process2CmdLine.get(record.getPredicateObject());
+    }
+
+    private static void parseEventOther(Event record){
+        switch (record.getName().toString()){
+            case "ALPC Wait For Reply": tempRecord.eventName = "ALPCALPC-Wait-For-Reply"; break;
+            case "ALPC Unwait": tempRecord.eventName = "ALPCALPC-Unwait"; break;
+            default:
+                tempRecord.eventName = "PerfInfoSysClEnter";
+                tempRecord.parameter = record.getName().toString();
+
+        }
+    }
+
+    private static void parseEventWrite(Event record){
+        tempRecord.eventName = "DiskIoWrite";
+        tempRecord.parameter = record.getPredicateObjectPath().toString();
+    }
+
+
 
     public static void parseSubject(TCCDMDatum datum){
         Subject record = (com.bbn.tc.schema.avro.cdm18.Subject) datum.getDatum();
@@ -94,6 +134,7 @@ public class ReverseConversion {
             threadId2ProcessId.put(record.getCid(), subject2process.get(record.getParentSubject()));
         }
 
+        tempRecord.eventName = "";
     }
 
     public static void parseObject(TCCDMDatum datum){
@@ -105,6 +146,8 @@ public class ReverseConversion {
             case "RegistryKeyObject":
                 break;
         }
+
+        tempRecord.eventName = "";
     }
 
     public static void bufferEvent(EventRecord record, ObjectConsumer consumer){
