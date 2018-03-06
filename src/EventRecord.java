@@ -5,7 +5,7 @@ public class EventRecord {
     public Integer processId;
     public Integer threadId;
 
-    public String processName;
+//    public String processName;
 
     public Long timeStamp;
 

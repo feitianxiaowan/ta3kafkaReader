@@ -81,6 +81,8 @@ public class KafkaReader extends Thread{
                     GenericContainer record = (GenericContainer) recIter.next();
                     TCCDMDatum datum = (TCCDMDatum) record;
                     EventRecord tempRecord = ReverseConversion.parse(datum);
+                    if(tempRecord.eventName.isEmpty())
+                        continue;
                     ReverseConversion.bufferEvent(tempRecord);
                 }
                 // =================== </KAFKA consumer> ===================

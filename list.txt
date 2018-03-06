@@ -1,0 +1,34 @@
+ALPCALPC-Send-Message: ProcessName
+ALPCALPC-Receive-Message: ProcessName
+DiskIoWrite: OpenPath or FileName
+FileIoCleanup: OpenPath or FileName
+FileIoClose: OpenPath or FileName
+FileIoCreate: OpenPath or FileName
+FileIoDelete: OpenPath or FileName
+FileIoDirEnum: OpenPath or FileName
+FileIoFileCreate: OpenPath or FileName
+FileIoFileDelete: OpenPath or FileName
+FileIoQueryInfo: OpenPath or FileName
+FileIoRead: OpenPath or FileName
+FileIoSetInfo: OpenPath or FileName
+FileIoWrite: OpenPath or FileName
+ImageLoad: OpenPath or FileName
+ImageUnLoad: OpenPath or FileName
+FileIoFSControl: OpenPath or FileName
+RegistryCreate: KeyName
+RegistryDelete: KeyName
+RegistryEnumerateKey: KeyName
+RegistryEnumerateValueKey: KeyName
+RegistryKCBCreate: KeyName
+RegistryKCBDelete: KeyName
+RegistryOpen: KeyName
+RegistryQuery: KeyName
+RegistryQueryValue: KeyName
+RegistrySetInformation: KeyName
+RegistrySetValue: KeyName
+RegistryDeleteValue: KeyName
+ProcessStart: ImageFileName, CommandLine
+ProcessEnd: ImageFileName, CommandLine
+PerfInfoSysClEnter: SystemCall
+ALPCALPC-Unwait:
+ALPCALPC-Wait-For-Reply:
