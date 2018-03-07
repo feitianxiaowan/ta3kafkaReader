@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c65799ae-a95b-4757-b4aa-0858d7d17f50" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/list.txt" afterPath="$PROJECT_DIR$/list.txt" />
       <change beforePath="$PROJECT_DIR$/src/ReverseConversion.java" afterPath="$PROJECT_DIR$/src/ReverseConversion.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,8 +45,8 @@
       <file leaf-file-name="ReverseConversion.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ReverseConversion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="69" column="118" lean-forward="true" selection-start-line="69" selection-start-column="118" selection-end-line="69" selection-end-column="118" />
+            <state relative-caret-position="540">
+              <caret line="137" column="9" lean-forward="true" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -504,8 +503,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReverseConversion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="69" column="118" lean-forward="true" selection-start-line="69" selection-start-column="118" selection-end-line="69" selection-end-column="118" />
+        <state relative-caret-position="540">
+          <caret line="137" column="9" lean-forward="true" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -21,10 +21,11 @@ public class ReverseConversion {
     // subjects
     private static HashMap<UUID, Integer> subject2ThreadId; // thread;
     private static HashMap<UUID, Integer> subject2process;
-    private static HashMap<Integer, Integer> threadId2ProcessId;
-    private static HashMap<UUID, String> object2Parameter;
-    // objects
     private static HashMap<UUID, String> process2CmdLine;
+    private static HashMap<Integer, Integer> threadId2ProcessId;
+    // objects
+    private static HashMap<UUID, String> fileObject2FilePath;
+    private static HashMap<UUID, String> registryObject2Path;
 
     private static EventRecord tempRecord;
 
@@ -38,7 +39,7 @@ public class ReverseConversion {
         else if(datum.getClass().getName().endsWith("Subject")){
             parseSubject(datum);
         }
-        else if(datum.getClass().getName().endsWith("Object")){
+        else if(datum.getClass().getName().endsWith("FileObject")){
             parseObject(datum);
         }
         // -----------------------
@@ -67,7 +68,9 @@ public class ReverseConversion {
 
             case EVENT_SENDMSG: parseEventSendMsg(record); break; // ALPCALPC-Send-Message
             case EVENT_RECVMSG: parseEventRecvMsg(record); break; // ALPCALPC-Receive-Message
-            case EVENT_OTHER: parseEventOther(record); break; // ALPCALPC-Unwait, ALPCALPC-Wait-For-Reply, System call
+            case EVENT_OTHER: parseEventOther(record); break; // ALPCALPC-Unwait, ALPCALPC-Wait-For-Reply, RegistryEnumerateKey, System call
+
+            case EVENT_CREATE_OBJECT: parseEventCreateObject(record); break; // FileIoCreate
 
             case EVENT_READ: parseEventWrite(record); break; // DiskIoWrite
             default: tempRecord.eventName = "";
@@ -95,23 +98,48 @@ public class ReverseConversion {
     }
 
     private static void parseEventSendMsg(Event record){
-        tempRecord.eventName = "ALPCALPC-Send-Message";
-        tempRecord.parameter = process2CmdLine.get(record.getPredicateObject());
+        if(process2CmdLine.containsKey(record.getPredicateObject())) {
+            tempRecord.eventName = "ALPCALPC-Send-Message";
+            tempRecord.parameter = process2CmdLine.get(record.getPredicateObject());
+        }
+        else{
+            tempRecord.eventName = "";
+        }
     }
 
     private static void parseEventRecvMsg(Event record){
-        tempRecord.eventName = "ALPCALPC-Receive-Message";
-        tempRecord.parameter = process2CmdLine.get(record.getPredicateObject());
+        if(process2CmdLine.containsKey(record.getPredicateObject())) {
+            tempRecord.eventName = "ALPCALPC-Receive-Message";
+            tempRecord.parameter = process2CmdLine.get(record.getPredicateObject());
+        }
+        else{
+            tempRecord.eventName = "";
+        }
     }
 
     private static void parseEventOther(Event record){
         switch (record.getName().toString()){
             case "ALPC Wait For Reply": tempRecord.eventName = "ALPCALPC-Wait-For-Reply"; break;
             case "ALPC Unwait": tempRecord.eventName = "ALPCALPC-Unwait"; break;
+            case "Delete File": tempRecord.eventName = "FileIoDelete"; tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "Enumerate value key event": tempRecord.eventName = "RegistryEnumerateValueKey"; tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "Delete Registry": tempRecord.eventName = "RegistryDelete"; tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
             default:
                 tempRecord.eventName = "PerfInfoSysClEnter";
                 tempRecord.parameter = record.getName().toString();
 
+        }
+    }
+
+    private static void parseEventCreateObject(Event record){
+        if(fileObject2FilePath.containsKey(record.getUuid())){
+            tempRecord.eventName = "FileIoCreate";
+            tempRecord.parameter = record.getPredicateObjectPath().toString();
+        }
+        else if(registryObject2Path.containsKey(record.getUuid())){
+            tempRecord.eventName = "RegistryCreate";
+            tempRecord.parameter = record.getPredicateObjectPath().toString();
+        }
         }
     }
 
@@ -138,13 +166,13 @@ public class ReverseConversion {
     }
 
     public static void parseObject(TCCDMDatum datum){
-        AbstractObject record = (com.bbn.tc.schema.avro.cdm18.AbstractObject) datum.getDatum();
-
-        switch (record.getClass().getName()){
-            case "FileObject":
-                break;
-            case "RegistryKeyObject":
-                break;
+        if(datum.getDatum().getClass().getName().endsWith("FileObject")) {
+            FileObject record = (com.bbn.tc.schema.avro.cdm18.FileObject) datum.getDatum();
+            fileObject2FilePath.put(record.getUuid(), "");
+        }
+        else if(datum.getDatum().getClass().getName().endsWith("RegistryObject")){
+            RegistryKeyObject record = (com.bbn.tc.schema.avro.cdm18.RegistryKeyObject) datum.getDatum();
+            registryObject2Path.put(record.getUuid(), "");
         }
 
         tempRecord.eventName = "";
