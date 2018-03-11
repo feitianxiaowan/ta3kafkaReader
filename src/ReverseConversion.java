@@ -136,10 +136,9 @@ public class ReverseConversion {
             tempRecord.eventName = "FileIoCreate";
             tempRecord.parameter = record.getPredicateObjectPath().toString();
         }
-        else if(registryObject2Path.containsKey(record.getUuid())){
+        else if(registryObject2Path.containsKey(record.getUuid())) {
             tempRecord.eventName = "RegistryCreate";
             tempRecord.parameter = record.getPredicateObjectPath().toString();
-        }
         }
     }
 
