@@ -1,6 +1,13 @@
 import java.util.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+import NU.ETWRealTimeDetector.Input.ObjectConsumer;
+import NU.ETWRealTimeDetector.Manager;
+import NU.ETWRealTimeDetector.Match.Detector;
+import NU.ETWRealTimeDetector.Match.TraceKey;
+import NU.ETWRealTimeDetector.Match.WFADetector;
+import NU.ETWRealTimeDetector.Output.Publisher;
+import NU.ETWRealTimeDetector.Output.StdPublisher;
 import com.bbn.tc.schema.avro.cdm18.TCCDMDatum;
 import org.apache.avro.generic.GenericContainer;
 import org.apache.kafka.clients.consumer.*;
@@ -21,6 +28,12 @@ public class KafkaReader extends Thread{
     private boolean setSpecificOffset = true;
     private long forcedOffset = 0;
     private String topic;
+
+
+    private ObjectConsumer objectConsumer;
+    private Manager manager;
+    private Detector detector;
+    private Publisher publisher;
 
 
     public KafkaReader(String kafkaServer, String groupId, String topic, String schemaFilename, int pollPeriod) {
@@ -57,6 +70,16 @@ public class KafkaReader extends Thread{
         } else {
             consumer.subscribe(Arrays.asList(topic.split(",")));
         }
+
+        //Initialize.
+        manager = new Manager();
+        objectConsumer = new ObjectConsumer();
+        detector = new WFADetector(new TraceKey(),false,false,false);
+        publisher = new StdPublisher();
+        manager.setConsumer(objectConsumer);
+        manager.setDetector(detector);
+        manager.setPublisher(publisher);
+        manager.start();
     }
 
     public void setShutdown(){
@@ -81,9 +104,7 @@ public class KafkaReader extends Thread{
                     GenericContainer record = (GenericContainer) recIter.next();
                     TCCDMDatum datum = (TCCDMDatum) record;
                     EventRecord tempRecord = ReverseConversion.parse(datum);
-                    if(tempRecord.eventName.isEmpty())
-                        continue;
-                    ReverseConversion.bufferEvent(tempRecord);
+                    ReverseConversion.bufferEvent(tempRecord,objectConsumer);
                 }
                 // =================== </KAFKA consumer> ===================
             }
