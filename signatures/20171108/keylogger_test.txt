@@ -1,0 +1,14 @@
+[
+  {
+    "traces": [
+      "spynet2.6-ThreadId2324",
+      "jspy-ThreadId1348"
+    ],
+    "sig": [
+      "SystemCall @ NtHello"
+    ],
+    "windowsize": 6,
+    "coverage": 0.3157894736842105,
+    "falsePositiveShare": 0.4117647058823529
+  }
+]

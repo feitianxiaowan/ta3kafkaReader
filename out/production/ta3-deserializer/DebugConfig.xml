@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment></comment>
+
+
+<!--Debug Information   -->
+<entry key="DispatchMessageWindowSize">600</entry>
+<entry key="GetMessageWindowSize">400</entry>
+<entry key="NetworkEventWinodowSize">400</entry>
+<entry key="MatchFrequency">1</entry>
+<entry key="NumberOfBlockToKeep">4</entry>
+<entry key="RemoteDesktopMaxMatch">10</entry>
+
+</properties>

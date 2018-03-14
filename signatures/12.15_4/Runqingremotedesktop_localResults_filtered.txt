@@ -1,0 +1,322 @@
+[
+  {
+    "traces": [
+      "Albertino22"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDCObject",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateDIBSection",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiExtGetObjectW",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiSelectBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiBitBlt",
+      "ALPCALPC-Send-Message @ ProcessName:",
+      "ALPCALPC-Wait-For-Reply",
+      "ALPCALPC-Send-Message @ ProcessName:@dwm.exe",
+      "ALPCALPC-Unwait",
+      "ALPCALPC-Receive-Message @ ProcessName:@dwm.exe"
+    ],
+    "windowsize": 80,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+    {
+    "traces": [
+      "proto1106",
+      "imminentMonitor39",
+      "xrat2.0"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDCObject",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateDIBSection",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiExtGetObjectW",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiSelectBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiBitBlt",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiFlush",
+      "ALPCALPC-Send-Message @ ProcessName:",
+      "ALPCALPC-Wait-For-Reply",
+      "ALPCALPC-Send-Message @ ProcessName:@dwm.exe",
+      "ALPCALPC-Unwait",
+      "ALPCALPC-Receive-Message @ ProcessName:@dwm.exe"
+    ],
+    "windowsize": 80,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+      {
+    "traces": [
+      "quasar1.1"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateDIBSection",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiExtGetObjectW",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiSelectBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiOpenDCW",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiBitBlt",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiFlush",
+      "ALPCALPC-Send-Message @ ProcessName:",
+      "ALPCALPC-Wait-For-Reply",
+      "ALPCALPC-Send-Message @ ProcessName:@dwm.exe",
+      "ALPCALPC-Unwait",
+      "ALPCALPC-Receive-Message @ ProcessName:@dwm.exe"
+    ],
+    "windowsize": 80,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+        {
+    "traces": [
+      "NamoCore1220"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtGdiSelectBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiStretchBlt",
+      "ALPCALPC-Send-Message @ ProcessName:",
+      "ALPCALPC-Wait-For-Reply",
+      "ALPCALPC-Send-Message @ ProcessName:@dwm.exe",
+      "ALPCALPC-Unwait",
+      "ALPCALPC-Receive-Message @ ProcessName:@dwm.exe",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateDIBSection",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiSetDIBitsToDeviceInternal",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDIBitsInternal"
+    ],
+    "windowsize": 80,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+        {
+    "traces": [
+      "xena2.0"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateDIBSection",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiSelectBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiStretchBlt",
+      "ALPCALPC-Send-Message @ ProcessName:",
+      "ALPCALPC-Wait-For-Reply",
+      "ALPCALPC-Send-Message @ ProcessName:@dwm.exe",
+      "ALPCALPC-Unwait",
+      "ALPCALPC-Receive-Message @ ProcessName:@dwm.exe"
+    ],
+    "windowsize": 80,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+        {
+    "traces": [
+      "paradox"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDCObject",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateDIBSection",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiExtGetObjectW",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiSelectBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiBitBlt",
+      "ALPCALPC-Send-Message @ ProcessName:",
+      "ALPCALPC-Wait-For-Reply",
+      "ALPCALPC-Send-Message @ ProcessName:@dwm.exe",
+      "ALPCALPC-Unwait",
+      "ALPCALPC-Receive-Message @ ProcessName:@dwm.exe"
+    ],
+    "windowsize": 80,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+        {
+    "traces": [
+      "novalite3.0"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiSelectBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiStretchBlt",
+      "ALPCALPC-Send-Message @ ProcessName:",
+      "ALPCALPC-Wait-For-Reply",
+      "ALPCALPC-Send-Message @ ProcessName:@dwm.exe",
+      "ALPCALPC-Unwait",
+      "ALPCALPC-Receive-Message @ ProcessName:@dwm.exe"
+    ],
+    "windowsize": 80,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+          {
+    "traces": [
+      "nuclear2.1.0"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetWindowDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiSelectBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiStretchBlt",
+      "ALPCALPC-Send-Message @ ProcessName:",
+      "ALPCALPC-Wait-For-Reply",
+      "ALPCALPC-Send-Message @ ProcessName:@dwm.exe",
+      "ALPCALPC-Unwait",
+      "ALPCALPC-Receive-Message @ ProcessName:@dwm.exe"
+    ],
+    "windowsize": 80,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+          {
+    "traces": [
+      "Darkcomet5.1-2",
+      "Darkcomet legacy"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiOpenDCW",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiSelectBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiBitBlt",
+      "ALPCALPC-Send-Message @ ProcessName:",
+      "ALPCALPC-Wait-For-Reply",
+      "ALPCALPC-Send-Message @ ProcessName:@dwm.exe",
+      "ALPCALPC-Unwait",
+      "ALPCALPC-Receive-Message @ ProcessName:@dwm.exe"
+    ],
+    "windowsize": 80,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+          {
+    "traces": [
+      "Darkcomet4.0"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtGdiOpenDCW",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDeviceCaps",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiSelectBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiPatBlt",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiExtGetObjectW"
+    ],
+    "windowsize": 80,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+          {
+    "traces": [
+      "turkojan4.0"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiSelectBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiBitBlt",
+      "ALPCALPC-Send-Message @ ProcessName:",
+      "ALPCALPC-Wait-For-Reply",
+      "ALPCALPC-Send-Message @ ProcessName:@dwm.exe",
+      "ALPCALPC-Unwait",
+      "ALPCALPC-Receive-Message @ ProcessName:@dwm.exe",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiExtGetObjectW",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreatePaletteInternal",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiExtGetObjectW"
+    ],
+    "windowsize": 80,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+          {
+    "traces": [
+      "ctOs1300"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiSelectBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiBitBlt",
+      "ALPCALPC-Send-Message @ ProcessName:",
+      "ALPCALPC-Wait-For-Reply",
+      "ALPCALPC-Send-Message @ ProcessName:@dwm.exe",
+      "ALPCALPC-Unwait",
+      "ALPCALPC-Receive-Message @ ProcessName:@dwm.exe",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDIBitsInternal"
+    ],
+    "windowsize": 80,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+            {
+    "traces": [
+      "jrat"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtGdiOpenDCW",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiSelectBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiBitBlt",
+      "ALPCALPC-Send-Message @ ProcessName:",
+      "ALPCALPC-Wait-For-Reply",
+      "ALPCALPC-Send-Message @ ProcessName:@dwm.exe",
+      "ALPCALPC-Unwait @ ",
+      "ALPCALPC-Receive-Message @ ProcessName:@dwm.exe",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDIBitsInternal"
+    ],
+    "windowsize": 80,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+            {
+    "traces": [
+      "pupy"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetWindowDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleDC",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiCreateCompatibleBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiSelectBitmap",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiBitBlt",
+      "ALPCALPC-Send-Message @ ProcessName:",
+      "ALPCALPC-Wait-For-Reply",
+      "ALPCALPC-Send-Message @ ProcessName:@dwm.exe",
+      "ALPCALPC-Unwait",
+      "ALPCALPC-Receive-Message @ ProcessName:@dwm.exe",
+      "PerfInfoSysClEnter @ SystemCall:NtGdiGetDIBitsInternal"
+    ],
+    "windowsize": 80,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  }
+]

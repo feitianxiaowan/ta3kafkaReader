@@ -1,0 +1,121 @@
+[
+  {
+    "traces": [
+      "darkcomet5.1-se",
+      "imminent2.0-se"
+    ],
+    "sig": [
+      "ImageDCStart @ wshbth.dll",
+      "ImageDCStart @ winrnr.dll",
+      "ImageDCStart @ pnrpnsp.dll",
+      "ImageDCStart @ NapiNSP.dll"
+    ],
+    "windowsize": 7
+  },
+  {
+    "traces": [
+      "njrat0.7-se",
+      "imminent2.0-se"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetForegroundWindow",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtUserQueryWindow"
+    ],
+    "windowsize": 10
+  },
+  {
+    "traces": [
+      "spynet2.6-se",
+      "imminent2.0-se"
+    ],
+    "sig": [
+      "SystemCall @ NtCreateFile",
+      "SystemCall @ NtWriteFile",
+      "SystemCall @ NtUserGetForegroundWindow",
+      "SystemCall @ NtUserQueryWindow"
+    ],
+    "windowsize": 17
+  },
+  {
+    "traces": [
+      "xena2.0-se",
+      "xrat2.0-se"
+    ],
+    "sig": [
+      "ImageDCStart @ rpcrt4.dll",
+      "ImageDCStart @ advapi32.dll",
+      "ImageDCStart @ ole32.dll",
+      "ImageDCStart @ nsi.dll"
+    ],
+    "windowsize": 14
+  },
+  {
+    "traces": [
+      "xrat2.0-se",
+      "nanocore1.2.2.0-se"
+    ],
+    "sig": [
+      "ImageDCStart @ WMINet_Utils.dll",
+      "ImageDCStart @ System.Xml.ni.dll",
+      "ImageDCStart @ System.Windows.Forms.ni.dll",
+      "ImageDCStart @ mscorlib.ni.dll",
+      "ImageDCStart @ mscorwks.dll",
+      "ImageDCStart @ System.Configuration.ni.dll"
+    ],
+    "windowsize": 17
+  },
+  {
+    "traces": [
+      "xrat2.0-se",
+      "nanocore1.2.2.0-se"
+    ],
+    "sig": [
+      "ImageDCStart @ WMINet_Utils.dll",
+      "ImageDCStart @ System.Xml.ni.dll",
+      "ImageDCStart @ System.Windows.Forms.ni.dll",
+      "ImageDCStart @ System.ni.dll",
+      "ImageDCStart @ mscorwks.dll",
+      "ImageDCStart @ System.Configuration.ni.dll"
+    ],
+    "windowsize": 17
+  },
+  {
+    "traces": [
+      "xrat2.0-se",
+      "njrat0.7-se"
+    ],
+    "sig": [
+      "ImageDCStart @ msctf.dll",
+      "ImageDCStart @ shlwapi.dll",
+      "ImageDCStart @ ole32.dll",
+      "ImageDCStart @ nsi.dll",
+      "ImageDCStart @ sechost.dll",
+      "SystemCall @ NtUserGetKeyState",
+      "SystemCall @ NtUserGetForegroundWindow",
+      "SystemCall @ NtUserQueryWindow"
+    ],
+    "windowsize": 33
+  },
+  {
+    "traces": [
+      "nanocore1.2.2.0-se",
+      "imminent2.0-se"
+    ],
+    "sig": [
+      "ImageDCStart @ msctf.dll",
+      "ImageDCStart @ shlwapi.dll",
+      "ImageDCStart @ ole32.dll",
+      "ImageDCStart @ nsi.dll",
+      "ImageDCStart @ sechost.dll",
+      "SystemCall @ NtUserGetForegroundWindow",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtSetTimer",
+      "SystemCall @ NtWaitForWorkViaWorkerFactory",
+      "SystemCall @ NtUserGetForegroundWindow",
+      "SystemCall @ NtUserQueryWindow"
+    ],
+    "windowsize": 134
+  }
+]

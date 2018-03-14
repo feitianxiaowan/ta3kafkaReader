@@ -1,0 +1,14 @@
+PerfInfoSysClEnter @ SystemCall:NtCallbackReturn
+PerfInfoSysClEnter @ SystemCall:NtUserBuildHwndList
+PerfInfoSysClEnter @ SystemCall:NtUserGetAsyncKeyState
+PerfInfoSysClEnter @ SystemCall:NtCreateFile
+PerfInfoSysClEnter @ SystemCall:NtQuerySystemInformation
+PerfInfoSysClEnter @ SystemCall:NtUserGetKeyboardState
+PerfInfoSysClEnter @ SystemCall:NtWriteFile
+PerfInfoSysClEnter @ SystemCall:NtUserGetKeyState
+PerfInfoSysClEnter @ SystemCall:NtUserMapVirtualKeyEx
+PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow
+PerfInfoSysClEnter @ SystemCall:NtFlushInstructionCache
+PerfInfoSysClEnter @ SystemCall:NtSetInformationFile
+PerfInfoSysClEnter @ SystemCall:NtUserToUnicodeEx
+PerfInfoSysClEnter @ SystemCall:NtUserGetForegroundWindow

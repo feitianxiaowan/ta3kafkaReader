@@ -1,0 +1,227 @@
+[
+  {
+    "traces": [
+      "Albertino22"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDCObject",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiBitBlt"
+    ],
+    "windowsize": 40,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+    {
+    "traces": [
+      "proto1106",
+      "imminentMonitor39",
+      "xrat2.0"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDCObject",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiBitBlt",
+      "SystemCall @ NtGdiFlush"
+    ],
+    "windowsize": 40,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+      {
+    "traces": [
+      "quasar1.1"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiOpenDCW",
+      "SystemCall @ NtGdiBitBlt",
+      "SystemCall @ NtGdiFlush"
+    ],
+    "windowsize": 40,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+        {
+    "traces": [
+      "NamoCore1220"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtGdiSetDIBitsToDeviceInternal",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiGetDIBitsInternal",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiStretchBlt"
+    ],
+    "windowsize": 40,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+        {
+    "traces": [
+      "xena2.0"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiStretchBlt",
+      "SystemCall @ NtGdiExtGetObjectW"
+    ],
+    "windowsize": 40,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+        {
+    "traces": [
+      "paradox"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiBitBlt"
+    ],
+    "windowsize": 40,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+        {
+    "traces": [
+      "novalite3.0"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiStretchBlt",
+      "SystemCall @ NtGdiExtGetObjectW"
+    ],
+    "windowsize": 40,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+          {
+    "traces": [
+      "nuclear2.1.0"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetWindowDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiStretchBlt"
+    ],
+    "windowsize": 40,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+          {
+    "traces": [
+      "Darkcomet40"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiBitBlt"
+    ],
+    "windowsize": 40,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+          {
+    "traces": [
+      "turkojan4.0"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiBitBlt",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtGdiCreatePaletteInternal",
+      "SystemCall @ NtGdiExtGetObjectW"
+    ],
+    "windowsize": 40,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+          {
+    "traces": [
+      "ctOs1300"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiBitBlt",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiGetDIBitsInternal"
+    ],
+    "windowsize": 40,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+            {
+    "traces": [
+      "jrat"
+    ],
+    "sig": [
+      "SystemCall @ NtGdiOpenDCW",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiBitBlt",
+      "SystemCall @ NtGdiGetDIBitsInternal"
+    ],
+    "windowsize": 40,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  },
+            {
+    "traces": [
+      "pupy"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetWindowDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiBitBlt",
+      "SystemCall @ NtGdiGetDIBitsInternal"
+    ],
+    "windowsize": 40,
+    "coverage": 100,
+    "falsePositiveShare": 1
+  }
+]

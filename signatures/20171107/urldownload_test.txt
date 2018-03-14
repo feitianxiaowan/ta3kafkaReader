@@ -1,0 +1,442 @@
+[
+  {
+    "traces": [
+      "xrat2.0_ud",
+      "bozok1.5.1_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ msasn1.dll",
+      "ImageDCStart @ KernelBase.dll",
+      "ImageDCStart @ advapi32.dll"
+    ],
+    "windowsize": 8
+  },
+  {
+    "traces": [
+      "darkcomet5.3_ud",
+      "xrat2.0_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ FWPUCLNT.DLL",
+      "ImageDCStart @ winnsi.dll",
+      "ImageDCStart @ IPHLPAPI.DLL"
+    ],
+    "windowsize": 6
+  },
+  {
+    "traces": [
+      "virus8.0_ud",
+      "mlrat_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ System.Windows.Forms.ni.dll",
+      "ImageDCStart @ System.ni.dll",
+      "ImageDCStart @ mscorlib.ni.dll"
+    ],
+    "windowsize": 5
+  },
+  {
+    "traces": [
+      "turkojan4.0_ud",
+      "xrat2.0_ud"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetKeyboardState",
+      "SystemCall @ NtUserToUnicodeEx",
+      "SystemCall @ NtCallbackReturn"
+    ],
+    "windowsize": 7
+  },
+  {
+    "traces": [
+      "quasar1.1_ud",
+      "jrat_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ rasadhlp.dll",
+      "ImageDCStart @ dhcpcsvc.dll",
+      "ImageDCStart @ dhcpcsvc6.dll",
+      "ImageDCStart @ IPHLPAPI.DLL"
+    ],
+    "windowsize": 10
+  },
+  {
+    "traces": [
+      "xrat2.0_ud",
+      "nuclear2.1_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ rtutils.dll",
+      "ImageDCStart @ winnsi.dll",
+      "ImageDCStart @ IPHLPAPI.DLL",
+      "ImageDCStart @ WSHTCPIP.DLL"
+    ],
+    "windowsize": 12
+  },
+  {
+    "traces": [
+      "xena2.0_ud",
+      "xrat2.0_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ ole32.dll",
+      "ImageDCStart @ usp10.dll",
+      "ImageDCStart @ msctf.dll",
+      "ImageDCStart @ shell32.dll"
+    ],
+    "windowsize": 14
+  },
+  {
+    "traces": [
+      "imminent2.0_ud",
+      "bozok1.5.1_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ imm32.dll",
+      "ImageDCStart @ ws2_32.dll",
+      "ImageDCStart @ rpcrt4.dll",
+      "ImageDCStart @ shlwapi.dll",
+      "ImageDCStart @ nsi.dll"
+    ],
+    "windowsize": 14
+  },
+  {
+    "traces": [
+      "xrat2.0_ud",
+      "bozok1.5.1_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ crypt32.dll",
+      "ImageDCStart @ imm32.dll",
+      "ImageDCStart @ rpcrt4.dll",
+      "ImageDCStart @ gdi32.dll",
+      "ImageDCStart @ msctf.dll"
+    ],
+    "windowsize": 20
+  },
+  {
+    "traces": [
+      "jrat_ud",
+      "nuclear2.1_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ winnsi.dll",
+      "ImageDCStart @ IPHLPAPI.DLL",
+      "ImageDCStart @ comctl32.dll",
+      "ImageDCStart @ WSHTCPIP.DLL",
+      "ImageDCStart @ dnsapi.dll"
+    ],
+    "windowsize": 15
+  },
+  {
+    "traces": [
+      "nuclear2.1_ud",
+      "mlrat_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ ole32.dll",
+      "ImageDCStart @ usp10.dll",
+      "ImageDCStart @ imm32.dll",
+      "ImageDCStart @ shlwapi.dll",
+      "ImageDCStart @ nsi.dll"
+    ],
+    "windowsize": 17
+  },
+  {
+    "traces": [
+      "imminent2.0_ud",
+      "nuclear2.1_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ ole32.dll",
+      "ImageDCStart @ usp10.dll",
+      "ImageDCStart @ imm32.dll",
+      "ImageDCStart @ shlwapi.dll",
+      "ImageDCStart @ oleaut32.dll",
+      "ImageDCStart @ msvcrt.dll"
+    ],
+    "windowsize": 23
+  },
+  {
+    "traces": [
+      "quasar1.1_ud",
+      "darkcomet5.1_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ wow64cpu.dll",
+      "ImageDCStart @ wow64win.dll",
+      "ImageDCStart @ wow64.dll",
+      "ImageDCStart @ cryptbase.dll",
+      "ImageDCStart @ sspicli.dll",
+      "ImageDCStart @ usp10.dll",
+      "ImageDCStart @ lpk.dll",
+      "ImageDCStart @ shell32.dll",
+      "ImageDCStart @ oleaut32.dll",
+      "ImageDCStart @ ws2_32.dll"
+    ],
+    "windowsize": 35
+  },
+  {
+    "traces": [
+      "imminent3.9_ud",
+      "xena2.0_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ wow64cpu.dll",
+      "ImageDCStart @ wow64win.dll",
+      "ImageDCStart @ wow64.dll",
+      "ImageDCStart @ cryptbase.dll",
+      "ImageDCStart @ sspicli.dll",
+      "ImageDCStart @ usp10.dll",
+      "ImageDCStart @ lpk.dll",
+      "ImageDCStart @ shell32.dll",
+      "ImageDCStart @ oleaut32.dll",
+      "ImageDCStart @ sechost.dll"
+    ],
+    "windowsize": 38
+  },
+  {
+    "traces": [
+      "albertino2.2_ud",
+      "bozok1.5.1_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ wow64win.dll",
+      "ImageDCStart @ wow64.dll",
+      "ImageDCStart @ cryptbase.dll",
+      "ImageDCStart @ sspicli.dll",
+      "ImageDCStart @ usp10.dll",
+      "ImageDCStart @ lpk.dll",
+      "ImageDCStart @ imm32.dll",
+      "ImageDCStart @ shlwapi.dll",
+      "ImageDCStart @ nsi.dll",
+      "ImageDCStart @ KernelBase.dll",
+      "ImageDCStart @ msvcrt.dll",
+      "ImageDCStart @ ntdll.dll"
+    ],
+    "windowsize": 47
+  },
+  {
+    "traces": [
+      "quasar1.1_ud",
+      "darkcomet5.1_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ wow64cpu.dll",
+      "ImageDCStart @ wow64win.dll",
+      "ImageDCStart @ wow64.dll",
+      "ImageDCStart @ cryptbase.dll",
+      "ImageDCStart @ sspicli.dll",
+      "ImageDCStart @ clbcatq.dll",
+      "ImageDCStart @ imm32.dll",
+      "ImageDCStart @ shlwapi.dll",
+      "ImageDCStart @ nsi.dll",
+      "ImageDCStart @ KernelBase.dll",
+      "ImageDCStart @ msvcrt.dll",
+      "ImageDCStart @ ntdll.dll"
+    ],
+    "windowsize": 47
+  },
+  {
+    "traces": [
+      "imminent3.9_ud",
+      "nuclear2.1_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ wow64cpu.dll",
+      "ImageDCStart @ wow64win.dll",
+      "ImageDCStart @ wow64.dll",
+      "ImageDCStart @ cryptbase.dll",
+      "ImageDCStart @ sspicli.dll",
+      "ImageDCStart @ Wldap32.dll",
+      "ImageDCStart @ gdi32.dll",
+      "ImageDCStart @ msctf.dll",
+      "ImageDCStart @ nsi.dll",
+      "ImageDCStart @ KernelBase.dll",
+      "ImageDCStart @ msvcrt.dll",
+      "ImageDCStart @ ntdll.dll"
+    ],
+    "windowsize": 48
+  },
+  {
+    "traces": [
+      "imminent3.9_ud",
+      "xena2.0_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ wow64cpu.dll",
+      "ImageDCStart @ wow64win.dll",
+      "ImageDCStart @ wow64.dll",
+      "ImageDCStart @ cryptbase.dll",
+      "ImageDCStart @ sspicli.dll",
+      "ImageDCStart @ crypt32.dll",
+      "ImageDCStart @ imm32.dll",
+      "ImageDCStart @ shlwapi.dll",
+      "ImageDCStart @ nsi.dll",
+      "ImageDCStart @ KernelBase.dll",
+      "ImageDCStart @ msvcrt.dll",
+      "ImageDCStart @ ntdll.dll"
+    ],
+    "windowsize": 50
+  },
+  {
+    "traces": [
+      "imminent3.9_ud",
+      "xena2.0_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ wow64cpu.dll",
+      "ImageDCStart @ wow64win.dll",
+      "ImageDCStart @ wow64.dll",
+      "ImageDCStart @ cryptbase.dll",
+      "ImageDCStart @ sspicli.dll",
+      "ImageDCStart @ crypt32.dll",
+      "ImageDCStart @ gdi32.dll",
+      "ImageDCStart @ msctf.dll",
+      "ImageDCStart @ nsi.dll",
+      "ImageDCStart @ KernelBase.dll",
+      "ImageDCStart @ msvcrt.dll",
+      "ImageDCStart @ ntdll.dll"
+    ],
+    "windowsize": 50
+  },
+  {
+    "traces": [
+      "virus8.0_ud",
+      "darkcomet5.1_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ wow64win.dll",
+      "ImageDCStart @ wow64.dll",
+      "ImageDCStart @ cryptbase.dll",
+      "ImageDCStart @ sspicli.dll",
+      "ImageDCStart @ clbcatq.dll",
+      "ImageDCStart @ crypt32.dll",
+      "ImageDCStart @ imm32.dll",
+      "ImageDCStart @ shlwapi.dll",
+      "ImageDCStart @ nsi.dll",
+      "ImageDCStart @ KernelBase.dll",
+      "ImageDCStart @ msvcrt.dll",
+      "ImageDCStart @ ntdll.dll",
+      "SystemCall @ NtUserGetForegroundWindow",
+      "SystemCall @ NtUserQueryWindow"
+    ],
+    "windowsize": 58
+  },
+  {
+    "traces": [
+      "darkcomet4_ud",
+      "nuclear2.1_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ WSHTCPIP.DLL",
+      "ImageDCStart @ mswsock.dll",
+      "ImageDCStart @ uxtheme.dll",
+      "ImageDCStart @ wkscli.dll",
+      "ImageDCStart @ srvcli.dll",
+      "ImageDCStart @ netapi32.dll",
+      "ImageDCStart @ comctl32.dll",
+      "ImageDCStart @ wsock32.dll",
+      "ImageDCStart @ wow64cpu.dll",
+      "ImageDCStart @ cryptbase.dll",
+      "ImageDCStart @ sspicli.dll",
+      "ImageDCStart @ crypt32.dll",
+      "ImageDCStart @ urlmon.dll",
+      "ImageDCStart @ imm32.dll",
+      "ImageDCStart @ shlwapi.dll",
+      "ImageDCStart @ nsi.dll",
+      "ImageDCStart @ KernelBase.dll",
+      "ImageDCStart @ msvcrt.dll",
+      "ImageDCStart @ ntdll.dll"
+    ],
+    "windowsize": 81
+  },
+  {
+    "traces": [
+      "darkcomet4_ud",
+      "nuclear2.1_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ WSHTCPIP.DLL",
+      "ImageDCStart @ mswsock.dll",
+      "ImageDCStart @ uxtheme.dll",
+      "ImageDCStart @ wkscli.dll",
+      "ImageDCStart @ srvcli.dll",
+      "ImageDCStart @ netapi32.dll",
+      "ImageDCStart @ comctl32.dll",
+      "ImageDCStart @ version.dll",
+      "ImageDCStart @ wow64cpu.dll",
+      "ImageDCStart @ cryptbase.dll",
+      "ImageDCStart @ sspicli.dll",
+      "ImageDCStart @ crypt32.dll",
+      "ImageDCStart @ urlmon.dll",
+      "ImageDCStart @ imm32.dll",
+      "ImageDCStart @ shlwapi.dll",
+      "ImageDCStart @ nsi.dll",
+      "ImageDCStart @ KernelBase.dll",
+      "ImageDCStart @ msvcrt.dll",
+      "ImageDCStart @ ntdll.dll"
+    ],
+    "windowsize": 81
+  },
+  {
+    "traces": [
+      "turkojan4.0_ud",
+      "darkcomet4_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ WSHTCPIP.DLL",
+      "ImageDCStart @ mswsock.dll",
+      "ImageDCStart @ dwmapi.dll",
+      "ImageDCStart @ uxtheme.dll",
+      "ImageDCStart @ wkscli.dll",
+      "ImageDCStart @ srvcli.dll",
+      "ImageDCStart @ netapi32.dll",
+      "ImageDCStart @ comctl32.dll",
+      "ImageDCStart @ wsock32.dll",
+      "ImageDCStart @ wow64cpu.dll",
+      "ImageDCStart @ cryptbase.dll",
+      "ImageDCStart @ sspicli.dll",
+      "ImageDCStart @ usp10.dll",
+      "ImageDCStart @ lpk.dll",
+      "ImageDCStart @ imm32.dll",
+      "ImageDCStart @ shlwapi.dll",
+      "ImageDCStart @ nsi.dll",
+      "ImageDCStart @ KernelBase.dll",
+      "ImageDCStart @ msvcrt.dll",
+      "ImageDCStart @ ntdll.dll"
+    ],
+    "windowsize": 80
+  },
+  {
+    "traces": [
+      "xena2.0_ud",
+      "darkcomet4_ud"
+    ],
+    "sig": [
+      "ImageDCStart @ apisetschema.dll",
+      "ImageDCStart @ @ExecutableFile",
+      "ImageDCStart @ WSHTCPIP.DLL",
+      "ImageDCStart @ mswsock.dll",
+      "ImageDCStart @ msvfw32.dll",
+      "ImageDCStart @ avicap32.dll",
+      "ImageDCStart @ shfolder.dll",
+      "ImageDCStart @ msacm32.dll",
+      "ImageDCStart @ winmm.dll",
+      "ImageDCStart @ wsock32.dll",
+      "ImageDCStart @ version.dll",
+      "ImageDCStart @ wow64cpu.dll",
+      "ImageDCStart @ cryptbase.dll",
+      "ImageDCStart @ sspicli.dll",
+      "ImageDCStart @ crypt32.dll",
+      "ImageDCStart @ urlmon.dll",
+      "ImageDCStart @ imm32.dll",
+      "ImageDCStart @ shlwapi.dll",
+      "ImageDCStart @ nsi.dll",
+      "ImageDCStart @ KernelBase.dll",
+      "ImageDCStart @ msvcrt.dll",
+      "ImageDCStart @ ntdll.dll"
+    ],
+    "windowsize": 90
+  }
+]

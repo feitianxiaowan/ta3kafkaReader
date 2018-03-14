@@ -1,0 +1,1689 @@
+[
+  {
+    "traces": [
+      "Albertino22",
+      "jrat-ThreadId3008"
+    ],
+    "sig": [
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiBitBlt",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory"
+    ],
+    "windowsize": 14
+  },
+  {
+    "traces": [
+      "DarkComet40",
+      "jrat-ThreadId3008"
+    ],
+    "sig": [
+      "SystemCall @ NtGdiOpenDCW",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiDeleteObjectApp"
+    ],
+    "windowsize": 19
+  },
+  {
+    "traces": [
+      "jrat-ThreadId3008",
+      "xena2.0-ThreadId1328"
+    ],
+    "sig": [
+      "FileIoRead @ ",
+      "DiskIoDrvMjFnCall @ 3",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiDeleteObjectApp"
+    ],
+    "windowsize": 19
+  },
+  {
+    "traces": [
+      "Albertino22",
+      "DarkComet40"
+    ],
+    "sig": [
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiSelectBitmap"
+    ],
+    "windowsize": 16
+  },
+  {
+    "traces": [
+      "Albertino22",
+      "NamoCore1220"
+    ],
+    "sig": [
+      "SystemCall @ NtQuerySystemInformation",
+      "SystemCall @ NtQueryInformationProcess",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtQuerySystemInformation",
+      "SystemCall @ NtQueryInformationProcess",
+      "SystemCall @ NtFlushInstructionCache"
+    ],
+    "windowsize": 11
+  },
+  {
+    "traces": [
+      "Albertino22",
+      "novalite3.0-ThreadId2768"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory"
+    ],
+    "windowsize": 27
+  },
+  {
+    "traces": [
+      "ctOs1300",
+      "xena2.0-ThreadId1328"
+    ],
+    "sig": [
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtGdiCreateCompatibleDC"
+    ],
+    "windowsize": 20
+  },
+  {
+    "traces": [
+      "pupy-ThreadId1368",
+      "xena2.0-ThreadId1328"
+    ],
+    "sig": [
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiGetDIBitsInternal",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtAllocateVirtualMemory"
+    ],
+    "windowsize": 20
+  },
+  {
+    "traces": [
+      "DarkComet40",
+      "ctOs1300"
+    ],
+    "sig": [
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtUserGetDC"
+    ],
+    "windowsize": 26
+  },
+  {
+    "traces": [
+      "pupy-ThreadId1368",
+      "ctOs1300"
+    ],
+    "sig": [
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiBitBlt",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtAllocateVirtualMemory"
+    ],
+    "windowsize": 18
+  },
+  {
+    "traces": [
+      "pupy-ThreadId1368",
+      "ctOs1300"
+    ],
+    "sig": [
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiBitBlt",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtAllocateVirtualMemory"
+    ],
+    "windowsize": 18
+  },
+  {
+    "traces": [
+      "DarkComet40",
+      "novalite3.0-ThreadId2768"
+    ],
+    "sig": [
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtUserGetDC"
+    ],
+    "windowsize": 23
+  },
+  {
+    "traces": [
+      "DarkComet40",
+      "novalite3.0-ThreadId2768"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtUserGetDC"
+    ],
+    "windowsize": 17
+  },
+  {
+    "traces": [
+      "imminentMonitor39",
+      "nuclear2.1.0-ThreadId1960"
+    ],
+    "sig": [
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "FileIoRead @ ",
+      "DiskIoDrvMjFnCall @ 3"
+    ],
+    "windowsize": 19
+  },
+  {
+    "traces": [
+      "jrat-ThreadId3008",
+      "Proto1106"
+    ],
+    "sig": [
+      "SystemCall @ NtCreateThreadEx",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtProtectVirtualMemory",
+      "ALPC_REC @ @ExecutableFile",
+      "SystemCall @ NtResumeThread",
+      "SystemCall @ NtQueryVirtualMemory",
+      "SystemCall @ NtAllocateVirtualMemory"
+    ],
+    "windowsize": 17
+  },
+  {
+    "traces": [
+      "pupy-ThreadId1368",
+      "jrat-ThreadId3008"
+    ],
+    "sig": [
+      "SystemCall @ NtCreateFile",
+      "SystemCall @ NtReadFile",
+      "SystemCall @ NtCreateThreadEx",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtProtectVirtualMemory",
+      "ALPC_REC @ @ExecutableFile",
+      "SystemCall @ NtResumeThread"
+    ],
+    "windowsize": 26
+  },
+  {
+    "traces": [
+      "Albertino22",
+      "xena2.0-ThreadId1328"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtGdiFlush",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory"
+    ],
+    "windowsize": 24
+  },
+  {
+    "traces": [
+      "nuclear2.1.0-ThreadId1960",
+      "ctOs1300"
+    ],
+    "sig": [
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiDeleteObjectApp"
+    ],
+    "windowsize": 29
+  },
+  {
+    "traces": [
+      "Paradox",
+      "DarkComet40"
+    ],
+    "sig": [
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiSelectBitmap"
+    ],
+    "windowsize": 39
+  },
+  {
+    "traces": [
+      "Albertino22",
+      "pupy-ThreadId1368"
+    ],
+    "sig": [
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiBitBlt",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory"
+    ],
+    "windowsize": 35
+  },
+  {
+    "traces": [
+      "ctOs1300",
+      "NamoCore1220"
+    ],
+    "sig": [
+      "SystemCall @ NtQueryInformationProcess",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiGetDIBitsInternal",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiDeleteObjectApp"
+    ],
+    "windowsize": 30
+  },
+  {
+    "traces": [
+      "novalite3.0-ThreadId2768",
+      "Proto1106"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtAllocateVirtualMemory"
+    ],
+    "windowsize": 35
+  },
+  {
+    "traces": [
+      "novalite3.0-ThreadId2768",
+      "NamoCore1220"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiStretchBlt",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiGetDIBitsInternal",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory"
+    ],
+    "windowsize": 34
+  },
+  {
+    "traces": [
+      "nuclear2.1.0-ThreadId1960",
+      "NamoCore1220"
+    ],
+    "sig": [
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiStretchBlt",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiGetDIBitsInternal",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtAllocateVirtualMemory"
+    ],
+    "windowsize": 39
+  },
+  {
+    "traces": [
+      "novalite3.0-ThreadId2768",
+      "xena2.0-ThreadId1328"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiStretchBlt",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDIBitsInternal",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtAllocateVirtualMemory"
+    ],
+    "windowsize": 49
+  },
+  {
+    "traces": [
+      "novalite3.0-ThreadId2768",
+      "xena2.0-ThreadId1328"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiStretchBlt",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtAllocateVirtualMemory"
+    ],
+    "windowsize": 49
+  },
+  {
+    "traces": [
+      "Paradox",
+      "xena2.0-ThreadId1328"
+    ],
+    "sig": [
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "FileIoRead @ ",
+      "DiskIoDrvMjFnCall @ 3",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtGdiFlush",
+      "SystemCall @ NtAllocateVirtualMemory"
+    ],
+    "windowsize": 53
+  },
+  {
+    "traces": [
+      "pupy-ThreadId1368",
+      "xena2.0-ThreadId1328"
+    ],
+    "sig": [
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiGetDIBitsInternal",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtAllocateVirtualMemory"
+    ],
+    "windowsize": 62
+  },
+  {
+    "traces": [
+      "DarkComet40",
+      "nuclear2.1.0-ThreadId1960"
+    ],
+    "sig": [
+      "SystemCall @ NtSetInformationThread",
+      "SystemCall @ NtCreateFile",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiCreateCompatibleDC"
+    ],
+    "windowsize": 47
+  },
+  {
+    "traces": [
+      "imminentMonitor39",
+      "novalite3.0-ThreadId2768"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "FileIoRead @ ",
+      "DiskIoDrvMjFnCall @ 3",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory",
+      "DiskIoDrvMjFnCall @ 3",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2"
+    ],
+    "windowsize": 64
+  },
+  {
+    "traces": [
+      "imminentMonitor39",
+      "novalite3.0-ThreadId2768"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "FileIoRead @ ",
+      "DiskIoDrvMjFnCall @ 3",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory",
+      "DiskIoDrvMjFnCall @ 3",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2"
+    ],
+    "windowsize": 52
+  },
+  {
+    "traces": [
+      "nuclear2.1.0-ThreadId1960",
+      "xena2.0-ThreadId1328"
+    ],
+    "sig": [
+      "SystemCall @ NtSetInformationThread",
+      "SystemCall @ NtCreateFile",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiStretchBlt",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiGetDIBitsInternal",
+      "SystemCall @ NtGdiDeleteObjectApp"
+    ],
+    "windowsize": 42
+  },
+  {
+    "traces": [
+      "jrat-ThreadId3008",
+      "nuclear2.1.0-ThreadId1960"
+    ],
+    "sig": [
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiGetDIBitsInternal",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "FileIoRead @ ",
+      "DiskIoDrvMjFnCall @ 3",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "SystemCall @ NtSetInformationFile",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "SystemCall @ NtReadFile"
+    ],
+    "windowsize": 72
+  },
+  {
+    "traces": [
+      "pupy-ThreadId1368",
+      "xrat2.0-ThreadId1040"
+    ],
+    "sig": [
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "ALPC_REC @ @ExecutableFile",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiBitBlt",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtAllocateVirtualMemory"
+    ],
+    "windowsize": 53
+  },
+  {
+    "traces": [
+      "ctOs1300",
+      "quasar1.1-ThreadId2372"
+    ],
+    "sig": [
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiBitBlt",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtFlushProcessWriteBuffers",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtQuerySystemInformation",
+      "SystemCall @ NtQueryInformationProcess",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "ALPC_REC @ @ExecutableFile"
+    ],
+    "windowsize": 55
+  },
+  {
+    "traces": [
+      "imminentMonitor39",
+      "ctOs1300"
+    ],
+    "sig": [
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiBitBlt",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtFlushProcessWriteBuffers",
+      "SystemCall @ NtQuerySystemInformation",
+      "SystemCall @ NtQueryInformationProcess",
+      "SystemCall @ NtFlushInstructionCache",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtAllocateVirtualMemory"
+    ],
+    "windowsize": 50
+  },
+  {
+    "traces": [
+      "novalite3.0-ThreadId2768",
+      "nuclear2.1.0-ThreadId1960"
+    ],
+    "sig": [
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiStretchBlt",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiGetDIBitsInternal",
+      "FileIoRead @ ",
+      "DiskIoDrvMjFnCall @ 3",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4"
+    ],
+    "windowsize": 80
+  },
+  {
+    "traces": [
+      "novalite3.0-ThreadId2768",
+      "nuclear2.1.0-ThreadId1960"
+    ],
+    "sig": [
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiStretchBlt",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiGetDIBitsInternal",
+      "FileIoRead @ ",
+      "DiskIoDrvMjFnCall @ 3",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtFreeVirtualMemory",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4"
+    ],
+    "windowsize": 80
+  },
+  {
+    "traces": [
+      "novalite3.0-ThreadId2768",
+      "nuclear2.1.0-ThreadId1960"
+    ],
+    "sig": [
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiStretchBlt",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiGetDIBitsInternal",
+      "FileIoRead @ ",
+      "DiskIoDrvMjFnCall @ 3",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtFreeVirtualMemory",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4"
+    ],
+    "windowsize": 80
+  },
+  {
+    "traces": [
+      "novalite3.0-ThreadId2768",
+      "nuclear2.1.0-ThreadId1960"
+    ],
+    "sig": [
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiStretchBlt",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiGetDIBitsInternal",
+      "FileIoRead @ ",
+      "DiskIoDrvMjFnCall @ 3",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4"
+    ],
+    "windowsize": 80
+  },
+  {
+    "traces": [
+      "Paradox",
+      "ctOs1300"
+    ],
+    "sig": [
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtQueryVirtualMemory",
+      "SystemCall @ NtQuerySystemInformation",
+      "SystemCall @ NtQueryInformationProcess",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtQueryVirtualMemory",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFlushInstructionCache",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtAllocateVirtualMemory"
+    ],
+    "windowsize": 64
+  },
+  {
+    "traces": [
+      "Albertino22",
+      "quasar1.1-ThreadId2372"
+    ],
+    "sig": [
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiExtGetObjectW",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiBitBlt",
+      "SystemCall @ NtGdiFlush",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtFlushProcessWriteBuffers",
+      "SystemCall @ NtQuerySystemInformation",
+      "SystemCall @ NtQueryInformationProcess",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtQueryInformationProcess",
+      "SystemCall @ NtTerminateThread"
+    ],
+    "windowsize": 55
+  },
+  {
+    "traces": [
+      "imminentMonitor39",
+      "pupy-ThreadId1368"
+    ],
+    "sig": [
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiBitBlt",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtOpenFile",
+      "SystemCall @ NtProtectVirtualMemory",
+      "SystemCall @ NtQuerySystemInformation",
+      "SystemCall @ NtQueryInformationProcess",
+      "SystemCall @ NtQueryKey",
+      "RegistryQuery @ ",
+      "SystemCall @ NtQueryObject",
+      "SystemCall @ NtOpenKeyEx"
+    ],
+    "windowsize": 170
+  },
+  {
+    "traces": [
+      "jrat-ThreadId3008",
+      "novalite3.0-ThreadId2768"
+    ],
+    "sig": [
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiGetDIBitsInternal",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4"
+    ],
+    "windowsize": 56
+  },
+  {
+    "traces": [
+      "novalite3.0-ThreadId2768",
+      "ctOs1300"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtGdiGetDIBitsInternal",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserRemoveProp",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserRemoveProp",
+      "SystemCall @ NtCallbackReturn",
+      "ALPC_REC @ @ExecutableFile"
+    ],
+    "windowsize": 114
+  },
+  {
+    "traces": [
+      "novalite3.0-ThreadId2768",
+      "ctOs1300"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserRemoveProp",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserRemoveProp",
+      "SystemCall @ NtCallbackReturn",
+      "ALPC_REC @ @ExecutableFile"
+    ],
+    "windowsize": 114
+  },
+  {
+    "traces": [
+      "pupy-ThreadId1368",
+      "quasar1.1-ThreadId2372"
+    ],
+    "sig": [
+      "RegistryQueryValue @ Domain",
+      "SystemCall @ NtProtectVirtualMemory",
+      "SystemCall @ NtSetInformationKey",
+      "RegistrySetInformation @ ",
+      "SystemCall @ NtQueryValueKey",
+      "SystemCall @ NtProtectVirtualMemory",
+      "ALPC_REC @ @ExecutableFile",
+      "ALPC_SEN @ @ExecutableFile",
+      "ALPC_REC @ @ExecutableFile",
+      "SystemCall @ NtSetInformationThread",
+      "SystemCall @ NtAlpcCreateSecurityContext",
+      "SystemCall @ NtSetInformationThread",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtQueryKey",
+      "RegistryQuery @ ",
+      "SystemCall @ NtQueryObject",
+      "SystemCall @ NtOpenKeyEx",
+      "SystemCall @ NtSetInformationKey",
+      "RegistrySetInformation @ ",
+      "SystemCall @ NtQueryValueKey"
+    ],
+    "windowsize": 295
+  },
+  {
+    "traces": [
+      "pupy-ThreadId1368",
+      "quasar1.1-ThreadId2372"
+    ],
+    "sig": [
+      "RegistryQueryValue @ Domain",
+      "RegistryOpen @ Parameters",
+      "SystemCall @ NtSetInformationKey",
+      "RegistrySetInformation @ ",
+      "SystemCall @ NtQueryValueKey",
+      "SystemCall @ NtProtectVirtualMemory",
+      "ALPC_REC @ @ExecutableFile",
+      "ALPC_SEN @ @ExecutableFile",
+      "ALPC_REC @ @ExecutableFile",
+      "SystemCall @ NtSetInformationThread",
+      "SystemCall @ NtAlpcCreateSecurityContext",
+      "SystemCall @ NtSetInformationThread",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtQueryKey",
+      "RegistryQuery @ ",
+      "SystemCall @ NtQueryObject",
+      "SystemCall @ NtOpenKeyEx",
+      "SystemCall @ NtSetInformationKey",
+      "RegistrySetInformation @ ",
+      "SystemCall @ NtQueryValueKey"
+    ],
+    "windowsize": 289
+  },
+  {
+    "traces": [
+      "pupy-ThreadId1368",
+      "quasar1.1-ThreadId2372"
+    ],
+    "sig": [
+      "RegistryQueryValue @ Domain",
+      "SystemCall @ NtProtectVirtualMemory",
+      "RegistryOpen @ Parameters",
+      "SystemCall @ NtSetInformationKey",
+      "RegistrySetInformation @ ",
+      "SystemCall @ NtQueryValueKey",
+      "SystemCall @ NtProtectVirtualMemory",
+      "ALPC_REC @ @ExecutableFile",
+      "ALPC_SEN @ @ExecutableFile",
+      "ALPC_REC @ @ExecutableFile",
+      "SystemCall @ NtSetInformationThread",
+      "SystemCall @ NtAlpcCreateSecurityContext",
+      "SystemCall @ NtSetInformationThread",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtQueryKey",
+      "RegistryQuery @ ",
+      "SystemCall @ NtQueryObject",
+      "SystemCall @ NtOpenKeyEx",
+      "SystemCall @ NtSetInformationKey",
+      "RegistrySetInformation @ "
+    ],
+    "windowsize": 289
+  },
+  {
+    "traces": [
+      "pupy-ThreadId1368",
+      "quasar1.1-ThreadId2372"
+    ],
+    "sig": [
+      "RegistryQueryValue @ Domain",
+      "SystemCall @ NtOpenKeyEx",
+      "RegistryOpen @ Parameters",
+      "SystemCall @ NtSetInformationKey",
+      "RegistrySetInformation @ ",
+      "SystemCall @ NtQueryValueKey",
+      "SystemCall @ NtProtectVirtualMemory",
+      "ALPC_REC @ @ExecutableFile",
+      "ALPC_SEN @ @ExecutableFile",
+      "ALPC_REC @ @ExecutableFile",
+      "SystemCall @ NtSetInformationThread",
+      "SystemCall @ NtAlpcCreateSecurityContext",
+      "SystemCall @ NtSetInformationThread",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtQueryKey",
+      "RegistryQuery @ ",
+      "SystemCall @ NtQueryObject",
+      "SystemCall @ NtOpenKeyEx",
+      "SystemCall @ NtSetInformationKey",
+      "RegistrySetInformation @ "
+    ],
+    "windowsize": 283
+  },
+  {
+    "traces": [
+      "novalite3.0-ThreadId2768",
+      "ctOs1300"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtGdiGetDIBitsInternal",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserRemoveProp",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserRemoveProp",
+      "SystemCall @ NtCallbackReturn"
+    ],
+    "windowsize": 108
+  },
+  {
+    "traces": [
+      "novalite3.0-ThreadId2768",
+      "ctOs1300"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiCreateCompatibleDC",
+      "SystemCall @ NtGdiCreateCompatibleBitmap",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserRemoveProp",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserRemoveProp",
+      "SystemCall @ NtCallbackReturn"
+    ],
+    "windowsize": 108
+  },
+  {
+    "traces": [
+      "turkojan4.0-ThreadId2324",
+      "quasar1.1-ThreadId2372"
+    ],
+    "sig": [
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 5",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4",
+      "DiskIoDrvMjFnCall @ 6",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4"
+    ],
+    "windowsize": 99
+  },
+  {
+    "traces": [
+      "Paradox",
+      "jrat-ThreadId3008"
+    ],
+    "sig": [
+      "SystemCall @ NtOpenFile",
+      "SystemCall @ NtProtectVirtualMemory",
+      "SystemCall @ NtQueryInformationProcess",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 4"
+    ],
+    "windowsize": 217
+  },
+  {
+    "traces": [
+      "xrat2.0-ThreadId1040",
+      "NamoCore1220"
+    ],
+    "sig": [
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtFlushInstructionCache",
+      "SystemCall @ NtAllocateVirtualMemory"
+    ],
+    "windowsize": 139
+  },
+  {
+    "traces": [
+      "Paradox",
+      "quasar1.1-ThreadId2372"
+    ],
+    "sig": [
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFlushInstructionCache",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtFlushProcessWriteBuffers",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4"
+    ],
+    "windowsize": 193
+  },
+  {
+    "traces": [
+      "ctOs1300",
+      "turkojan4.0-ThreadId2324"
+    ],
+    "sig": [
+      "SystemCall @ NtUserCreateWindowEx",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserSetProp",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserSetWindowLongPtr",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserDestroyWindow",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserRemoveProp",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserRemoveProp",
+      "SystemCall @ NtCallbackReturn"
+    ],
+    "windowsize": 53
+  },
+  {
+    "traces": [
+      "Paradox",
+      "novalite3.0-ThreadId2768"
+    ],
+    "sig": [
+      "RegistrySetInformation @ ",
+      "SystemCall @ NtQueryKey",
+      "RegistryQuery @ ",
+      "SystemCall @ NtOpenKeyEx",
+      "SystemCall @ NtSetInformationKey",
+      "RegistrySetInformation @ ",
+      "SystemCall @ NtOpenKeyEx",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtFreeVirtualMemory",
+      "DiskIoDrvMjFnCall @ 4",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4"
+    ],
+    "windowsize": 99
+  },
+  {
+    "traces": [
+      "jrat-ThreadId3008",
+      "quasar1.1-ThreadId2372"
+    ],
+    "sig": [
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtCreateThreadEx",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtProtectVirtualMemory",
+      "ALPC_REC @ @ExecutableFile",
+      "SystemCall @ NtSetInformationThread",
+      "SystemCall @ NtResumeThread"
+    ],
+    "windowsize": 210
+  },
+  {
+    "traces": [
+      "novalite3.0-ThreadId2768",
+      "quasar1.1-ThreadId2372"
+    ],
+    "sig": [
+      "SystemCall @ NtOpenKeyEx",
+      "SystemCall @ NtSetInformationKey",
+      "RegistrySetInformation @ ",
+      "SystemCall @ NtQueryValueKey",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "FileIoRead @ ",
+      "DiskIoDrvMjFnCall @ 3",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "DiskIoDrvMjFnCall @ 3",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4"
+    ],
+    "windowsize": 179
+  },
+  {
+    "traces": [
+      "novalite3.0-ThreadId2768",
+      "turkojan4.0-ThreadId2324"
+    ],
+    "sig": [
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4",
+      "SystemCall @ NtUserCreateWindowEx",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserSetProp",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserDestroyWindow",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserRemoveProp",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetProp",
+      "SystemCall @ NtUserRemoveProp",
+      "SystemCall @ NtCallbackReturn"
+    ],
+    "windowsize": 94
+  },
+  {
+    "traces": [
+      "Paradox",
+      "turkojan4.0-ThreadId2324"
+    ],
+    "sig": [
+      "SystemCall @ NtAllocateVirtualMemory",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 20",
+      "DiskIoDrvMjFnCall @ 5",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4"
+    ],
+    "windowsize": 156
+  },
+  {
+    "traces": [
+      "turkojan4.0-ThreadId2324",
+      "quasar1.1-ThreadId2372"
+    ],
+    "sig": [
+      "SystemCall @ NtCreateThreadEx",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtProtectVirtualMemory",
+      "SystemCall @ NtResumeThread",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4",
+      "DiskIoDrvMjFnCall @ 6",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4"
+    ],
+    "windowsize": 249
+  },
+  {
+    "traces": [
+      "turkojan4.0-ThreadId2324",
+      "quasar1.1-ThreadId2372"
+    ],
+    "sig": [
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 5",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4",
+      "DiskIoDrvMjFnCall @ 6",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4"
+    ],
+    "windowsize": 99
+  },
+  {
+    "traces": [
+      "turkojan4.0-ThreadId2324",
+      "quasar1.1-ThreadId2372"
+    ],
+    "sig": [
+      "SystemCall @ NtCreateThreadEx",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtProtectVirtualMemory",
+      "SystemCall @ NtResumeThread",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4",
+      "DiskIoDrvMjFnCall @ 6",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 12",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4"
+    ],
+    "windowsize": 249
+  },
+  {
+    "traces": [
+      "NamoCore1220",
+      "quasar1.1-ThreadId2372"
+    ],
+    "sig": [
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFlushInstructionCache",
+      "SystemCall @ NtQuerySystemInformation",
+      "SystemCall @ NtQueryInformationProcess",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFlushInstructionCache",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiCreateDIBSection",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtGdiSelectBitmap",
+      "SystemCall @ NtUserGetDC",
+      "SystemCall @ NtGdiGetDeviceCaps",
+      "SystemCall @ NtGdiDeleteObjectApp",
+      "SystemCall @ NtFreeVirtualMemory"
+    ],
+    "windowsize": 282
+  },
+  {
+    "traces": [
+      "pupy-ThreadId1368",
+      "turkojan4.0-ThreadId2324"
+    ],
+    "sig": [
+      "SystemCall @ NtQueryInformationProcess",
+      "RegistryOpen @ SQMServiceList",
+      "RegistryQueryValue @ SQMServiceList",
+      "FileIoCreate @ MMDevAPI.DLL",
+      "FileIoQueryInfo @ MMDevAPI.DLL",
+      "SystemCall @ NtOpenFile",
+      "FileIoCreate @ MMDevAPI.DLL",
+      "ImageLoad @ MMDevAPI.dll",
+      "SystemCall @ NtProtectVirtualMemory",
+      "FileIoCreate @ PROPSYS.dll",
+      "FileIoQueryInfo @ PROPSYS.dll",
+      "SystemCall @ NtOpenFile",
+      "FileIoCreate @ PROPSYS.dll",
+      "ImageLoad @ propsys.dll",
+      "SystemCall @ NtProtectVirtualMemory",
+      "RegistryOpen @ DRIVERS32",
+      "RegistryQueryValue @ wave",
+      "RegistryQueryValue @ midi",
+      "SystemCall @ NtQueryInformationProcess",
+      "FileIoCreate @ @DeviceFile",
+      "FileIoQueryInfo @ @DeviceFile",
+      "SystemCall @ NtOpenFile",
+      "FileIoCreate @ @DeviceFile",
+      "ImageLoad @ @DeviceFile",
+      "SystemCall @ NtProtectVirtualMemory",
+      "FileIoCreate @ ksuser.dll",
+      "FileIoQueryInfo @ ksuser.dll",
+      "SystemCall @ NtOpenFile",
+      "FileIoCreate @ ksuser.dll",
+      "ImageLoad @ ksuser.dll",
+      "SystemCall @ NtProtectVirtualMemory",
+      "FileIoCreate @ AVRT.dll",
+      "FileIoQueryInfo @ AVRT.dll",
+      "SystemCall @ NtOpenFile",
+      "FileIoCreate @ AVRT.dll",
+      "ImageLoad @ avrt.dll",
+      "SystemCall @ NtProtectVirtualMemory",
+      "SystemCall @ NtQueryInformationProcess",
+      "RegistryQueryValue @ midi",
+      "RegistryOpen @ Winmm",
+      "RegistryQueryValue @ wheel",
+      "RegistryOpen @ DRIVERS32",
+      "RegistryQueryValue @ wave",
+      "RegistryQueryValue @ @DeviceFile",
+      "FileIoCreate @ @DeviceFile",
+      "FileIoQueryInfo @ @DeviceFile",
+      "FileIoCreate @ @DeviceFile",
+      "SystemCall @ NtQueryInformationProcess",
+      "ImageLoad @ setupapi.dll",
+      "SystemCall @ NtProtectVirtualMemory",
+      "ImageLoad @ cfgmgr32.dll",
+      "SystemCall @ NtProtectVirtualMemory",
+      "ImageLoad @ devobj.dll",
+      "SystemCall @ NtProtectVirtualMemory",
+      "SystemCall @ NtQueryVirtualMemory",
+      "RegistryQueryValue @ SourcePath",
+      "RegistryQueryValue @ DevicePath",
+      "SystemCall @ NtQuerySystemInformation",
+      "SystemCall @ NtQueryInformationProcess",
+      "RegistryQueryValue @ SystemSetupInProgress",
+      "SystemCall @ NtQueryInformationProcess",
+      "RegistryQueryValue @ @DeviceFile",
+      "FileIoCreate @ @DeviceFile",
+      "FileIoQueryInfo @ @DeviceFile",
+      "FileIoCreate @ @DeviceFile",
+      "SystemCall @ NtQueryInformationProcess",
+      "SystemCall @ NtQueryVirtualMemory",
+      "SystemCall @ NtQueryInformationProcess",
+      "RegistryOpen @ Properties",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "RegistryOpen @ Properties",
+      "SystemCall @ NtQueryVirtualMemory",
+      "RegistryOpen @ Properties",
+      "FileIoCreate @ AUDIOSES.DLL",
+      "FileIoQueryInfo @ AUDIOSES.DLL",
+      "SystemCall @ NtOpenFile",
+      "FileIoCreate @ AUDIOSES.DLL",
+      "ImageLoad @ AudioSes.dll",
+      "SystemCall @ NtProtectVirtualMemory",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtQueryVirtualMemory",
+      "RegistryOpen @ Properties",
+      "SystemCall @ NtQueryVirtualMemory",
+      "RegistryQueryValue @ @DeviceFile",
+      "FileIoCreate @ @DeviceFile",
+      "FileIoQueryInfo @ @DeviceFile",
+      "FileIoCreate @ @DeviceFile",
+      "SystemCall @ NtQueryInformationProcess",
+      "RegistryOpen @ Properties",
+      "SystemCall @ NtQueryVirtualMemory",
+      "RegistryOpen @ MIDIMap",
+      "RegistryQueryValue @ wavemapper",
+      "SystemCall @ NtQueryInformationProcess",
+      "FileIoCreate @ @DeviceFile",
+      "FileIoQueryInfo @ @DeviceFile",
+      "SystemCall @ NtOpenFile",
+      "FileIoCreate @ @DeviceFile",
+      "ImageLoad @ @DeviceFile",
+      "SystemCall @ NtProtectVirtualMemory",
+      "SystemCall @ NtQueryInformationProcess",
+      "RegistryQueryValue @ wavemapper",
+      "RegistryQueryValue @ midimapper",
+      "SystemCall @ NtQueryInformationProcess",
+      "FileIoCreate @ midimap.dll",
+      "FileIoQueryInfo @ midimap.dll",
+      "SystemCall @ NtOpenFile",
+      "FileIoCreate @ midimap.dll",
+      "ImageLoad @ midimap.dll",
+      "SystemCall @ NtProtectVirtualMemory",
+      "SystemCall @ NtQueryInformationProcess",
+      "RegistryQueryValue @ midimapper",
+      "SystemCall @ NtQueryInformationProcess"
+    ],
+    "windowsize": 1224
+  }
+]

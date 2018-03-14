@@ -1,0 +1,213 @@
+[
+  {
+    "traces": [
+      "njRat 0.7-2_PID4908_TID5072",
+      "XRat 2-2_PID2444_TID4260"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetForegroundWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetForegroundWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserToUnicodeEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyState"
+    ],
+    "windowsize": 255,
+    "coverage": 0.8571428571428571,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "traces": [
+      "DarkComet 5.3-2_PID5004_TID5912",
+      "NanoCore 1.2.2.0-2_PID4956_TID6060"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyboardState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserMapVirtualKeyEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserToUnicodeEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyboardState",
+      "PerfInfoSysClEnter @ SystemCall:NtCallbackReturn",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow"
+    ],
+    "windowsize": 115,
+    "coverage": 0.42857142857142855,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "traces": [
+      "DarkComet 5.3-2_PID5004_TID5912",
+      "Nuclear RAT 2.1.0-2_PID6028_TID4924"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtCallbackReturn",
+      "PerfInfoSysClEnter @ SystemCall:NtUserMapVirtualKeyEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyboardState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserToUnicodeEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetForegroundWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtCallbackReturn",
+      "PerfInfoSysClEnter @ SystemCall:NtUserMapVirtualKeyEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetForegroundWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtCallbackReturn"
+    ],
+    "windowsize": 115,
+    "coverage": 0.35714285714285715,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "traces": [
+      "Quasar 1.1-2_PID3192_TID5104",
+      "XRat 2-2_PID2444_TID4260"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserPeekMessage",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetForegroundWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyboardState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserToUnicodeEx",
+      "PerfInfoSysClEnter @ SystemCall:NtCallbackReturn",
+      "PerfInfoSysClEnter @ SystemCall:NtUserWaitMessage",
+      "PerfInfoSysClEnter @ SystemCall:NtUserPeekMessage",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyState",
+      "PerfInfoSysClEnter @ SystemCall:NtCallbackReturn",
+      "PerfInfoSysClEnter @ SystemCall:NtUserWaitMessage"
+    ],
+    "windowsize": 278,
+    "coverage": 0.14285714285714285,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "traces": [
+      "Cybergate 1.8-2_PID3732_TID4168",
+      "njRat 0.7-2_PID4908_TID5072"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetAsyncKeyState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyboardState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserMapVirtualKeyEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserToUnicodeEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetForegroundWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetAsyncKeyState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetAsyncKeyState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetForegroundWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetAsyncKeyState"
+    ],
+    "windowsize": 324,
+    "coverage": 0.35714285714285715,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "traces": [
+      "Cybergate 1.8-2_PID3732_TID4168",
+      "DarkComet 5.3-2_PID5004_TID5912"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetForegroundWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyboardState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserMapVirtualKeyEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserToUnicodeEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetForegroundWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtCreateFile",
+      "PerfInfoSysClEnter @ SystemCall:NtSetInformationFile",
+      "PerfInfoSysClEnter @ SystemCall:NtWriteFile",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetForegroundWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow"
+    ],
+    "windowsize": 389,
+    "coverage": 0.42857142857142855,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "traces": [
+      "NanoCore 1.2.2.0-2_PID4956_TID6060",
+      "XRat 2-2_PID2444_TID4260"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtCallbackReturn",
+      "PerfInfoSysClEnter @ SystemCall:NtUserPeekMessage",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyboardState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserToUnicodeEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserWaitMessage",
+      "PerfInfoSysClEnter @ SystemCall:NtUserPeekMessage",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyboardState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserWaitMessage",
+      "PerfInfoSysClEnter @ SystemCall:NtUserPeekMessage",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtCallbackReturn",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow"
+    ],
+    "windowsize": 173,
+    "coverage": 0.21428571428571427,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "traces": [
+      "njRat 0.7-2_PID4908_TID5072",
+      "DarkComet 5.3-2_PID5004_TID5912"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyboardState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserMapVirtualKeyEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetForegroundWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserToUnicodeEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetForegroundWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyboardState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserMapVirtualKeyEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetForegroundWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyState"
+    ],
+    "windowsize": 353,
+    "coverage": 0.6428571428571429,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "traces": [
+      "Killer RAT-2_PID4100_TID4940",
+      "njRat 0.7-2_PID4908_TID5072"
+    ],
+    "sig": [
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetAsyncKeyState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyboardState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserMapVirtualKeyEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetForegroundWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserToUnicodeEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetForegroundWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtQuerySystemInformation",
+      "PerfInfoSysClEnter @ SystemCall:NtFlushInstructionCache",
+      "PerfInfoSysClEnter @ SystemCall:NtUserBuildHwndList",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetAsyncKeyState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetKeyboardState",
+      "PerfInfoSysClEnter @ SystemCall:NtUserMapVirtualKeyEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetForegroundWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserQueryWindow",
+      "PerfInfoSysClEnter @ SystemCall:NtUserToUnicodeEx",
+      "PerfInfoSysClEnter @ SystemCall:NtUserGetAsyncKeyState"
+    ],
+    "windowsize": 303,
+    "coverage": 0.14285714285714285,
+    "falsePositiveShare": 0.0
+  }
+]

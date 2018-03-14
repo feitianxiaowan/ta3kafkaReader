@@ -29,18 +29,34 @@ public class ReverseConversion {
 
     private static EventRecord tempRecord;
 
+    public static void init(){
+        tempRecord = new EventRecord();
 
-    public static EventRecord parse(TCCDMDatum datum){
+        thread2SourceData = new HashMap<>();
+        thread2EventSetBeginTime = new HashMap<>();
 
+        subject2ThreadId = new HashMap<>();
+        subject2process = new HashMap<>();
+        process2CmdLine = new HashMap<>();
+        threadId2ProcessId = new HashMap<>();
+
+        fileObject2FilePath = new HashMap<>();
+        registryObject2Path = new HashMap<>();
+    }
+
+
+    public static EventRecord parse(TCCDMDatum CDMdatum){
+        Object datum = CDMdatum.getDatum();
+        System.out.println(CDMdatum.getDatum().getClass().getName());
         // reserve conversion here
-        if (datum.getClass().getName().endsWith("Event")){
-            parseEvent(datum);
+        if (datum instanceof  Event){
+            parseEvent(CDMdatum);
         }
-        else if(datum.getClass().getName().endsWith("Subject")){
-            parseSubject(datum);
+        else if(datum instanceof Subject){
+            parseSubject(CDMdatum);
         }
-        else if(datum.getClass().getName().endsWith("FileObject")){
-            parseObject(datum);
+        else if(datum instanceof FileObject){
+            parseObject(CDMdatum);
         }
         // -----------------------
 
@@ -124,6 +140,25 @@ public class ReverseConversion {
             case "Delete File": tempRecord.eventName = "FileIoDelete"; tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
             case "Enumerate value key event": tempRecord.eventName = "RegistryEnumerateValueKey"; tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
             case "Delete Registry": tempRecord.eventName = "RegistryDelete"; tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "RegistryEnumerateKey": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "RegistryDeleteValue": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "RegistrySetValue": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "RegistrySetInformation": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "RegistryQueryValue": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "RegistryQuery": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "RegistryOpen": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "RegistryKCBDelete": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "RegistryKCBCreate": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+
+            case "FileIoCleanup": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "FileIoClose": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "FileIoDirEnum": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "FileIoFileDelete": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "FileIoQueryInfo": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "FileIoRead": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "FileIoSetInfo": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "FileIoWrite": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
+            case "FileIoFSControl": tempRecord.eventName = record.getName().toString(); tempRecord.parameter = record.getPredicateObjectPath().toString(); break;
             default:
                 tempRecord.eventName = "PerfInfoSysClEnter";
                 tempRecord.parameter = record.getName().toString();
@@ -153,12 +188,22 @@ public class ReverseConversion {
         Subject record = (com.bbn.tc.schema.avro.cdm18.Subject) datum.getDatum();
 
         if(record.getType() == SubjectType.SUBJECT_PROCESS){
-            subject2process.put(record.getUuid(),record.getCid());
-            process2CmdLine.put(record.getUuid(),record.getCmdLine().toString());
+            try {
+                subject2process.put(record.getUuid(),record.getCid());
+                process2CmdLine.put(record.getUuid(),record.getCmdLine().toString());
+            }
+            catch(Exception e){
+                e.printStackTrace();
+            }
         }
         else if(record.getType() == SubjectType.SUBJECT_THREAD){
-            subject2ThreadId.put(record.getUuid(), record.getCid());
-            threadId2ProcessId.put(record.getCid(), subject2process.get(record.getParentSubject()));
+            try {
+                subject2ThreadId.put(record.getUuid(), record.getCid());
+                threadId2ProcessId.put(record.getCid(), subject2process.get(record.getParentSubject()));
+            }
+            catch(Exception e){
+                e.printStackTrace();
+            }
         }
 
         tempRecord.eventName = "";
@@ -178,7 +223,16 @@ public class ReverseConversion {
     }
 
     public static void bufferEvent(EventRecord record, ObjectConsumer consumer){
-        String threadKey = record.threadId + record.pcId + "";
+        String threadKey;
+        if(record.eventName == "")
+            return;
+        try {
+            threadKey = record.threadId + record.pcId + "";
+        }
+        catch (Exception e){
+            e.printStackTrace();
+            return;
+        }
 
         // when new thread appears!
         if(!thread2SourceData.containsKey(threadKey)){

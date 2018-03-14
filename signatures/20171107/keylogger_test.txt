@@ -1,0 +1,283 @@
+[
+  {
+    "traces": [
+      "spynet2.6-ThreadId2324",
+      "jspy-ThreadId1348"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetForegroundWindow",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetAsyncKeyState"
+    ],
+    "windowsize": 6
+  },
+  {
+    "traces": [
+      "DarkComet51",
+      "NanoCore1220"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetKeyboardState",
+      "SystemCall @ NtUserMapVirtualKeyEx",
+      "SystemCall @ NtUserToUnicodeEx",
+      "SystemCall @ NtCallbackReturn"
+    ],
+    "windowsize": 14
+  },
+  {
+    "traces": [
+      "turkojan4.0-ThreadId2324",
+      "xrat2.0-ThreadId1240"
+    ],
+    "sig": [
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetKeyboardState",
+      "SystemCall @ NtUserToUnicodeEx",
+      "SystemCall @ NtCallbackReturn"
+    ],
+    "windowsize": 24
+  },
+  {
+    "traces": [
+      "virus8.0-ThreadId2692",
+      "DarkComet51"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetKeyState",
+      "SystemCall @ NtUserGetKeyboardState",
+      "SystemCall @ NtUserMapVirtualKeyEx",
+      "SystemCall @ NtUserGetForegroundWindow",
+      "SystemCall @ NtUserQueryWindow"
+    ],
+    "windowsize": 12
+  },
+  {
+    "traces": [
+      "virus8.0-ThreadId2692",
+      "imminentMonitor20"
+    ],
+    "sig": [
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtFlushInstructionCache",
+      "SystemCall @ NtUserGetKeyState",
+      "SystemCall @ NtFlushInstructionCache"
+    ],
+    "windowsize": 26
+  },
+  {
+    "traces": [
+      "pupy-ThreadId1900",
+      "NanoCore1220"
+    ],
+    "sig": [
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtUserGetKeyboardState",
+      "SystemCall @ NtQueryInformationProcess",
+      "SystemCall @ NtAllocateVirtualMemory"
+    ],
+    "windowsize": 21
+  },
+  {
+    "traces": [
+      "pupy-ThreadId1900",
+      "DarkComet53"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetKeyState",
+      "SystemCall @ NtUserGetKeyboardState",
+      "SystemCall @ NtUserToUnicodeEx",
+      "SystemCall @ NtUserGetForegroundWindow",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtCallbackReturn"
+    ],
+    "windowsize": 47
+  },
+  {
+    "traces": [
+      "DarkComet53",
+      "xrat2.0-ThreadId1240"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetKeyboardState",
+      "SystemCall @ NtUserToUnicodeEx",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserGetForegroundWindow",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtCallbackReturn"
+    ],
+    "windowsize": 18
+  },
+  {
+    "traces": [
+      "NanoCore1220",
+      "xrat2.0-ThreadId1240"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetKeyboardState",
+      "SystemCall @ NtUserToUnicodeEx",
+      "SystemCall @ NtFlushInstructionCache",
+      "SystemCall @ NtUserGetKeyboardState",
+      "SystemCall @ NtUserToUnicodeEx",
+      "SystemCall @ NtCallbackReturn"
+    ],
+    "windowsize": 24
+  },
+  {
+    "traces": [
+      "virus8.0-ThreadId2692",
+      "pupy-ThreadId1900"
+    ],
+    "sig": [
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtUserGetKeyState",
+      "SystemCall @ NtUserGetKeyboardState",
+      "SystemCall @ NtUserGetForegroundWindow",
+      "SystemCall @ NtUserQueryWindow"
+    ],
+    "windowsize": 19
+  },
+  {
+    "traces": [
+      "jrat-ThreadId1364",
+      "jspy-ThreadId1348"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetDoubleClickTime",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserGetKeyState",
+      "SystemCall @ NtUserGetAsyncKeyState",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserGetDoubleClickTime",
+      "SystemCall @ NtCallbackReturn"
+    ],
+    "windowsize": 17
+  },
+  {
+    "traces": [
+      "pupy-ThreadId1900",
+      "turkojan4.0-ThreadId2324"
+    ],
+    "sig": [
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserOpenClipboard",
+      "SystemCall @ NtUserGetClipboardData",
+      "SystemCall @ NtUserCreateLocalMemHandle",
+      "SystemCall @ NtUserCloseClipboard",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserQueryWindow"
+    ],
+    "windowsize": 36
+  },
+  {
+    "traces": [
+      "pupy-ThreadId1900",
+      "xrat2.0-ThreadId1240"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetKeyState",
+      "SystemCall @ NtUserGetForegroundWindow",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserGetKeyState",
+      "SystemCall @ NtUserGetForegroundWindow",
+      "SystemCall @ NtUserQueryWindow"
+    ],
+    "windowsize": 27
+  },
+  {
+    "traces": [
+      "pupy-ThreadId1900",
+      "xrat2.0-ThreadId1240"
+    ],
+    "sig": [
+      "SystemCall @ NtUserGetKeyState",
+      "SystemCall @ NtUserGetForegroundWindow",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtCallbackReturn",
+      "SystemCall @ NtUserGetKeyState",
+      "SystemCall @ NtUserGetKeyboardState",
+      "SystemCall @ NtUserToUnicodeEx"
+    ],
+    "windowsize": 27
+  },
+  {
+    "traces": [
+      "virus8.0-ThreadId2692",
+      "xrat2.0-ThreadId1240"
+    ],
+    "sig": [
+      "SystemCall @ NtFlushInstructionCache",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserGetKeyState",
+      "SystemCall @ NtFlushInstructionCache",
+      "SystemCall @ NtUserGetForegroundWindow",
+      "SystemCall @ NtUserQueryWindow",
+      "SystemCall @ NtUserToUnicodeEx"
+    ],
+    "windowsize": 21
+  },
+  {
+    "traces": [
+      "virus8.0-ThreadId2692",
+      "NanoCore1220"
+    ],
+    "sig": [
+      "SystemCall @ NtAllocateVirtualMemory",
+      "SystemCall @ NtFreeVirtualMemory",
+      "SystemCall @ NtFlushInstructionCache",
+      "SystemCall @ NtUserGetKeyboardState",
+      "SystemCall @ NtFlushInstructionCache",
+      "SystemCall @ NtUserMapVirtualKeyEx",
+      "SystemCall @ NtFlushInstructionCache",
+      "SystemCall @ NtUserToUnicodeEx"
+    ],
+    "windowsize": 20
+  },
+  {
+    "traces": [
+      "NanoCore1220",
+      "turkojan4.0-ThreadId2324"
+    ],
+    "sig": [
+      "DiskIoDrvMjFnCall @ 5",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "SystemCall @ NtUserGetKeyboardState",
+      "SystemCall @ NtUserMapVirtualKeyEx",
+      "SystemCall @ NtUserToUnicodeEx",
+      "FileIoQueryInfo @ @DataFile"
+    ],
+    "windowsize": 81
+  },
+  {
+    "traces": [
+      "NanoCore1220",
+      "turkojan4.0-ThreadId2324"
+    ],
+    "sig": [
+      "DiskIoDrvMjFnCall @ 5",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "DiskIoDrvMjFnCall @ 4",
+      "DiskIoDrvMjFnCall @ 0",
+      "DiskIoDrvMjFnCall @ 18",
+      "DiskIoDrvMjFnCall @ 2",
+      "SystemCall @ NtUserGetKeyboardState",
+      "SystemCall @ NtUserMapVirtualKeyEx",
+      "SystemCall @ NtUserToUnicodeEx",
+      "FileIoQueryInfo @ @DataFile"
+    ],
+    "windowsize": 75
+  }
+]

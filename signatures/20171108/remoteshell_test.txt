@@ -1,0 +1,14 @@
+[
+  {
+    "traces": [
+      "Albertino22",
+      "NanoCore1220"
+    ],
+    "sig": [
+      "SystemCall @ NtHello"
+    ],
+    "windowsize": 706,
+    "coverage": 0.15,
+    "falsePositiveShare": 0.2
+  }
+]

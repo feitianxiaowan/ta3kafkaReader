@@ -1,0 +1,246 @@
+[
+  {
+    "sig": [
+      "FileIoQueryInfo @ FileName:\\Device\\HarddiskVolume\\Windows\\Globalization\\Sorting\\XXX.nls"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoCleanup @ FileName:\\Device\\HarddiskVolume\\Windows\\Globalization\\Sorting\\XXX.nls"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoCleanup @ FileName:\\Device\\HarddiskVolume\\"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "ALPCALPC-Send-Message @ ProcessName:dwm.exe",
+      "ALPCALPC-Wait-For-Reply",
+      "PerfInfoSysClEnter @ SystemCall:NtQueryKey",
+      "PerfInfoSysClEnter @ SystemCall:NtOpenKeyEx",
+      "RegistryQuery @ KeyName:UNKNOWN_KEY"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoCleanup @ FileName:\\Device\\HarddiskVolume\\Windows\\WindowsShell.Manifest"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoClose @ FileName:\\Device\\HarddiskVolume\\Users\\cs"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoQueryInfo @ FileName:\\Device\\HarddiskVolume\\Windows\\WindowsShell.Manifest"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoCreate @ FileName:\\Device\\HarddiskVolume\\Users\\cs"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoCleanup @ FileName:\\Device\\HarddiskVolume\\Users\\cs"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoCleanup @ FileName:\\Device\\HarddiskVolume\\Users\\"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoCleanup @ FileName:\\Device\\HarddiskVolume\\Users\\cs\\AppData\\Roaming"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoCleanup @ FileName:\\Device\\HarddiskVolume\\Windows"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoClose @ FileName:\\Device\\HarddiskVolume\\Users\\cs\\AppData\\Roaming"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoCreate @ FileName:\\Device\\HarddiskVolume\\Users\\cs\\AppData\\Roaming"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoQueryInfo @ FileName:\\Device\\HarddiskVolume\\Users\\cs"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoCleanup @ FileName:\\Device\\HarddiskVolume\\Users\\cs\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoClose @ FileName:\\Device\\HarddiskVolume\\Users\\cs\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoCreate @ FileName:\\Device\\HarddiskVolume\\Users\\cs\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoQueryInfo @ FileName:\\Device\\HarddiskVolume\\Users\\cs\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoCleanup @ FileName:\\Device\\HarddiskVolume\\Windows\\"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoQueryInfo @ FileName:\\Device\\HarddiskVolume\\Windows\\Registration\\RXXX.clb"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoCreate @ FileName:\\Device\\HarddiskVolume\\Windows\\Registration\\RXXX.clb"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoQueryInfo @ FileName:\\Device\\HarddiskVolume\\Windows\\SYSTEM32\\wow64cpu.dll"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoCleanup @ FileName:\\Device\\HarddiskVolume\\Windows\\SYSTEM32\\wow64win.dll"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoCleanup @ FileName:\\Device\\HarddiskVolume\\Windows\\SYSTEM32\\wow64cpu.dll"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoQueryInfo @ FileName:\\Device\\HarddiskVolume\\Windows\\SysWOW64\\IMM32.DLL"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoQueryInfo @ FileName:\\Device\\HarddiskVolume\\Windows"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoQueryInfo @ FileName:\\Device\\HarddiskVolume\\Windows\\SysWOW64\\sechost.dll"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoCleanup @ FileName:\\Device\\HarddiskVolume\\Windows\\SysWOW64\\IMM32.DLL"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  },
+  {
+    "sig": [
+      "FileIoQueryInfo @ FileName:\\Device\\HarddiskVolume\\Windows\\SYSTEM32\\wow64win.dll"
+    ],
+    "windowsize": 0,
+    "coverage": 1.0,
+    "falsePositiveShare": 0.0
+  }
+]

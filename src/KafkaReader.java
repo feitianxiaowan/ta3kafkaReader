@@ -15,6 +15,7 @@ import org.apache.kafka.common.TopicPartition;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
+
 import com.bbn.tc.schema.serialization.AvroConfig;
 
 public class KafkaReader extends Thread{
@@ -61,7 +62,7 @@ public class KafkaReader extends Thread{
 
         properties.put(AvroConfig.SCHEMA_READER_FILE, schemaFilename);
         properties.put(AvroConfig.SCHEMA_WRITER_FILE, schemaFilename);
-        properties.put(AvroConfig.SCHEMA_SERDE_IS_SPECIFIC, false);
+        properties.put(AvroConfig.SCHEMA_SERDE_IS_SPECIFIC, true);
         consumer = new KafkaConsumer<>(properties);
 
         if (setSpecificOffset) {
@@ -99,12 +100,20 @@ public class KafkaReader extends Thread{
                 records = consumer.poll(pollPeriod);
 
                 Iterator recIter = records.iterator();
+                ConsumerRecord<String, GenericContainer> record = null;
+                ReverseConversion.init();
 
                 while (recIter.hasNext()){
-                    GenericContainer record = (GenericContainer) recIter.next();
-                    TCCDMDatum datum = (TCCDMDatum) record;
-                    EventRecord tempRecord = ReverseConversion.parse(datum);
-                    ReverseConversion.bufferEvent(tempRecord,objectConsumer);
+                    record = (ConsumerRecord<String, GenericContainer>)  recIter.next();
+                    TCCDMDatum CDMdatum = (TCCDMDatum) record.value();
+                    EventRecord tempRecord = new EventRecord();
+                    try{
+                        tempRecord = ReverseConversion.parse(CDMdatum);
+                        ReverseConversion.bufferEvent(tempRecord,objectConsumer);
+                    }
+                    catch(Exception e){
+                        e.printStackTrace();
+                    }
                 }
                 // =================== </KAFKA consumer> ===================
             }

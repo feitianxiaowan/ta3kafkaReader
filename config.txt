@@ -1,0 +1,10 @@
+admin
+admin
+10.214.148.123
+61616
+RunqingTESTFinal
+10
+no
+yes
+yes
+no
